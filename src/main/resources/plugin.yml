@@ -1,0 +1,4 @@
+name: RTPplugin
+version: '${version}'
+main: me.occure.rtpplugin.RTPplugin
+api-version: '1.20'
