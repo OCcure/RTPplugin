@@ -39,7 +39,7 @@ public class RTPcommand extends BukkitCommand {
         Random random = new Random();
         for (int tries = 0; tries < 100; tries++) {
             int x = player.getBlockX() + (random.nextInt(10000 * 2 + 1) - 10000);
-            int z = player.getBlockX() + (random.nextInt(10000 * 2 + 1) - 10000);
+            int z = player.getBlockZ() + (random.nextInt(10000 * 2 + 1) - 10000);
             int y = findSafeY(world,x,z);
             //안전한 곳을 찾기위해 Y좌표 탐색
             if (y != -1) {
